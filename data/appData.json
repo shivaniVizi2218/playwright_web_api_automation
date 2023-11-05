@@ -1,0 +1,19 @@
+{
+  "login": {
+    "tagLine": "Skills for All with Cisco"
+  },
+  "dashboard": {
+    "dashboard_URL": "https://skillsforall.com/dashboard"
+  },
+  "profile": {
+    "profile_URL": "https://skillsforall.com/profile",
+    "username": "R Shivani Vizi",
+    "firstName": "R Shivani",
+    "lastName": "Vizi",
+    "careerGoal": "Upskill To advance my job in technology career"
+  },
+  "catalog": {
+    "course": "Cybersecurity",
+    "course_Title": "Introduction to Cybersecurity"
+  }
+}

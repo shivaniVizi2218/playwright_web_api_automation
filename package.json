@@ -1,0 +1,21 @@
+{
+  "name": "playwright_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test ./tests/Sample.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.7",
+    "allure-commandline": "^2.24.1",
+    "allure-playwright": "^2.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
