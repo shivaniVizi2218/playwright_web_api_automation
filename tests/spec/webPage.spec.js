@@ -8,6 +8,7 @@ test("Launching main website", async ({ page }) => {
   const ciscoLogin = new sections.LoginPage(page, test);
   await ciscoLogin.launchApplication();
   await ciscoLogin.navigatingLoginPortal();
+  await page.waitForTimeout(parseInt(process.env.MEDIUM_WAIT));
   await expect(
     ciscoLogin.appTagLine,
     "Checking whether Cisco Skills tagline is present or not"
