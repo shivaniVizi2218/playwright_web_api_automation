@@ -90,6 +90,7 @@ test("Validating Search Catalog Bar", async ({ page }) => {
   await page.waitForTimeout(parseInt(process.env.SMALL_WAIT));
   const ciscoSearch = new sections.SearchCatalogTab(page, test);
   await ciscoSearch.searchingCatalog();
+    await page.waitForTimeout(parseInt(process.env.MEDIUM_WAIT));
   await expect(
     ciscoSearch.tabInProgress,
     "Checking whether In-Progress tab is visible or not"
